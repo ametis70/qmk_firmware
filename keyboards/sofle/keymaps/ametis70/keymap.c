@@ -87,11 +87,3 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      *            `----------------------------------'           '------''---------------------------'
      */
     [3] = LAYOUT(_______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, KC_INS, KC_PSCR, KC_APP, XXXXXXX, XXXXXXX, KC_PGUP, _______, KC_UP, _______, _______, KC_BSPC, _______, KC_LALT, KC_LCTL, KC_LSFT, XXXXXXX, KC_CAPS, KC_PGDN, KC_LEFT, KC_DOWN, KC_RGHT, KC_DEL, KC_BSPC, _______, KC_UNDO, KC_CUT, KC_COPY, KC_PASTE, XXXXXXX, _______, _______, XXXXXXX, _______, XXXXXXX, _______, XXXXXXX, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______)};
-
-uint16_t keycode_config(uint16_t keycode) {
-    return keycode;
-}
-
-uint8_t mod_config(uint8_t mod) {
-    return mod;
-}

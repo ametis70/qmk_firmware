@@ -17,7 +17,7 @@
 
 #pragma once
 
-/* By default left side is selected as master, 
+/* By default left side is selected as master,
 see https://docs.qmk.fm/#/feature_split_keyboard?id=setting-handedness
 for more options. */
 
@@ -48,3 +48,6 @@ for more options. */
 #        define RGBLIGHT_VAL_STEP 17
 #    endif
 #endif
+
+// Fix usb split detection
+#define SPLIT_USB_DETECT

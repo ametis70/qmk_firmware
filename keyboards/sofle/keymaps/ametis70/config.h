@@ -3,6 +3,9 @@
 // Fix usb split detection
 #define SPLIT_USB_DETECT
 
+// Show wpm on right side
+#define SPLIT_WPM_ENABLE
+
 // Size optimizations
 #undef LOCKING_SUPPORT_ENABLE
 #undef LOCKING_RESYNC_ENABLE
