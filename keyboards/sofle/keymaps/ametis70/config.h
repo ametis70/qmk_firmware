@@ -2,6 +2,10 @@
 
 // Fix usb split detection
 #define SPLIT_USB_DETECT
+#define SPLIT_USB_TIMEOUT_POLL 50
+#define SPLIT_USB_TIMEOUT 5000
+#define SPLIT_WATCHDOG_ENABLE
+#define SPLIT_WATCHDOG_TIMEOUT 7000
 
 // Show wpm on right side
 #define SPLIT_WPM_ENABLE
